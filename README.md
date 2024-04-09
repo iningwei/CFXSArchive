@@ -103,3 +103,6 @@ step4:启动脚本 ``node exchangeCfxs.js``
 
 ## 6，一些符文靓号，欢迎选购
 [我的靓号们](https://github.com/iningwei/CFXSArchive/blob/master/%E6%AC%A2%E8%BF%8E%E9%80%89%E8%B4%AD%E9%9D%93%E5%8F%B7.md)
+
+## 7，捐赠
+CFXS开发作者受捐erc20地址：0x7d029736015E83665FdDFf98eE6BE1f601f025a2
