@@ -88,6 +88,8 @@ step4:启动脚本 ``node exchangeCfxs.js``
 ## 4，虫洞（符文转换为可批量交易coin）
 去 https://www.cfxs.world/ 网站虫洞转换，然后在钱包中添加合约 ``0xb747a3317259e0aafe5a242c8e3f042a4b83627a`` 即可看到最终的coin信息
 
+![](https://github.com/iningwei/CFXSArchive/blob/master/%E7%AC%A6%E6%96%87%E5%88%B0coin%E8%99%AB%E6%B4%9E.png)
+
 当然coin依旧可以反转为符文，符文也可以拆分，具体参考``如何玩转cfxs符文``
 
 
