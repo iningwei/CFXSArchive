@@ -73,10 +73,10 @@ step4:启动脚本 ``node exchangeCfxs.js``
 >合并的目的是方便交易。符文是有编号的，由于cfxs总量为2100W因此初始编号为1-2100000，合并后原始会丢失。再拆开后会生成新的编号，从30000000开始。因此对于老编号，若有自己喜欢的号码，或者靓号，可以保留不合并，市场也有人专门收购此类靓号。
 
 - 法1：开发人员提供的网页工具
->在官方网站 https://www.cfxs.world/market/general 提供了合并工具，在[如何玩转cfxs符文]()有详细介绍，但是是手动的，很麻烦。
+>在官方网站 https://www.cfxs.world/market/general 提供了合并工具，在[如何玩转cfxs符文](https://github.com/iningwei/CFXSArchive/blob/master/%E5%A6%82%E4%BD%95%E7%8E%A9%E8%BD%ACcfxs%E7%AC%A6%E6%96%87.pdf)有详细介绍，但是是手动的，很麻烦。
 
 - 法2：网页合约操作
->在[b8b8合约](https://evm.confluxscan.net/address/0xd3a4d837e0a7b40de0b4024fa0f93127dd47b8b8)中输入参数来合并，有热心技师录了视频:[视频1](),[视频2]()，相对法1提高了效率，但是依旧恶心。
+>在[b8b8合约](https://evm.confluxscan.net/address/0xd3a4d837e0a7b40de0b4024fa0f93127dd47b8b8)中输入参数来合并，有热心技师录了视频:[视频1](https://github.com/iningwei/CFXSArchive/blob/master/%E6%8A%80%E5%B8%88%E7%BD%91%E9%A1%B5%E5%90%88%E7%BA%A6%E5%90%88%E5%B9%B6%E6%96%B0cfxs%E7%AC%A6%E6%96%871.mp4),[视频2](https://github.com/iningwei/CFXSArchive/blob/master/%E6%8A%80%E5%B8%88%E7%BD%91%E9%A1%B5%E5%90%88%E7%BA%A6%E5%90%88%E5%B9%B6%E6%96%B0cfxs%E7%AC%A6%E6%96%872.mp4)，相对法1提高了效率，但是依旧恶心。
 ```
 [["0x地址",24, "+++"]]
 ```
@@ -97,4 +97,7 @@ step4:启动脚本 ``node exchangeCfxs.js``
 - 合并：x/24*0.043887
 - 虫洞：0.02左右一次
 
-再次吐槽，真贵！！！
+再次吐槽，gas 真贵！！！
+
+## 6，一些符文靓号，欢迎选购
+[我的靓号们](https://github.com/iningwei/CFXSArchive/blob/master/%E6%AC%A2%E8%BF%8E%E9%80%89%E8%B4%AD%E9%9D%93%E5%8F%B7.md)
