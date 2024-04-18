@@ -108,7 +108,7 @@ step4:启动脚本 ``node exchangeCfxs.js``
 CFXS开发作者受捐erc20地址：0x7d029736015E83665FdDFf98eE6BE1f601f025a2
 
 ## 8，其它
-cfxs官网升级后导致合并脚本api不正确，需要合并工程cfxs.js脚本，把：
+cfxs官网升级后导致合并脚本api不正确，需要把合并工程cfxs.js脚本中的这一句：
 ```js
 const url = `https://www.cfxs.world/api/cfxs/my/new?index=${index}&merged=0&owner=${wallet.address}&size=60`;
 ```
