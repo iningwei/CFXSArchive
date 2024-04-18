@@ -11,7 +11,7 @@ let cfxsMainContract1 = cfxsMainContract.connect(wallet);
 let liangCount=0;//靓号个数
 
 async function fetchData(index) {
-    const url = `https://www.cfxs.world/api/cfxs/my/new?index=${index}&merged=0&owner=${wallet.address}&size=60`;
+    const url = `https://www.cfxs.io/api/cfxs/my/new?index=${index}&merged=0&owner=${wallet.address}&size=60`;//已修改为新网站对应的url了
     try {
         const response = await axios.get(url);
         return response.data;
